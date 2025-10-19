@@ -12,7 +12,11 @@ I am an AI Engineer with experience in Machine Learning, Artificial Intelligence
 ## 🛠️ Technologies & Tools:
 
 **Languages:**
-- Python, Java, C
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat&logo=TensorFlow&logoColor=white)
+
 
 **Machine Learning & AI:**
 - TensorFlow, PyTorch, Scikit-learn, Keras
