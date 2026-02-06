@@ -1,76 +1,138 @@
-# Hi, I'm Md Sakib Hasan👋
+<!-- ================= GLASSMORPHISM HEADER ================= -->
 
-### AI Engineer | ML & AI Enthusiast | Data Science Professional
+<h1 align="center">👋 Md Sakib Hasan</h1>
 
----
+<h3 align="center">
+AI Engineer • Machine Learning • Data Science • AI Systems Builder
+</h3>
 
-## 🚀 About Me:
-I am an AI Engineer with experience in Machine Learning, Artificial Intelligence, Data Science, and programming languages such as Python, Java, and C. I am passionate about using data-driven insights and AI models to solve real-world problems.
-
----
-
-## 🛠️ Technologies & Tools:
-
-**Languages:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat&logo=TensorFlow&logoColor=white)
-
-
-**Machine Learning & AI:**
-### 🛠️ Languages and Tools:
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-
-
-**Data Science:**
-- Pandas, NumPy, Matplotlib, Seaborn
-- OpenCV, Jupyter, Google Cloud
-
-**Databases:**
-- MySQL, PostgreSQL
-
-**Tools:**
-- Git, Docker, VS Code, PyCharm
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&duration=3000&color=7AF7FF&center=true&vCenter=true&width=650&lines=Glassmorphism+AI+Engineer;Machine+Learning+Specialist;Building+Future+with+AI;Data+Driven+Innovation" />
+</p>
 
 ---
 
-## 💼 Current Projects:
-- **Bengali Handwritten Digit Recognition** - Building a model to classify Bengali handwritten digits using deep learning techniques.
-- **Network Traffic Classification** - Classifying VPN and non-VPN traffic using machine learning models.
-- **Fake News Detection** - Exploring NLP techniques to detect fake news from a dataset of news articles.
+<!-- ================= GLASS CARD ABOUT ================= -->
+
+<div align="center">
+
+| 🧊 Glass Profile Card |
+|---|
+| ✨ AI Engineer building intelligent real-world systems |
+| 🧠 Strong in Machine Learning, Deep Learning, Data Science |
+| ⚡ Love optimizing models & deploying AI pipelines |
+| 🚀 Passionate about next-gen AI technologies |
+
+</div>
 
 ---
 
-## 🌱 What I’m currently learning:
-- Reinforcement Learning and its applications.
-- Advanced computer vision and deep learning techniques.
-- Optimization of AI models for production.
+## 🧊 Tech Glass Stack
+
+### 💎 Languages
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,java,c,js,html,css" />
+</p>
 
 ---
 
-## 📈 GitHub Stats:
-![Md Hasibur Rahman’s GitHub stats](https://github-readme-stats.vercel.app/api?username=hasiburrahman&show_icons=true&count_private=true&hide_title=true&hide=prs&theme=radical)
+### 🤖 AI / ML
+<p align="center">
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
+<br>
+<img src="https://img.shields.io/badge/Machine%20Learning-Glass%20Core-00E5FF?style=for-the-badge"/>
+</p>
 
 ---
 
-## 📍 Connect with me:
-- [LinkedIn]([https://www.linkedin.com/in/md-hasibur-rahman-1809b338a/](https://www.linkedin.com/in/sakib-hasan-07149a30b/))
-- [Email](hasan.s4k1b@gmail.com)
-- [Portfolio]([https://yourportfolio.com](https://hasan-sakib.github.io/sakib.github.io/))
-- [Twitter](https://twitter.com/yourusername)
-- [Instagram]([https://www.instagram.com/yourusername](https://www.instagram.com/sakib_munshii/))
+### 📊 Data Science
+<p align="center">
+<img src="https://img.shields.io/badge/Pandas-Glass-150458?style=for-the-badge&logo=pandas"/>
+<img src="https://img.shields.io/badge/NumPy-Glass-013243?style=for-the-badge&logo=numpy"/>
+<img src="https://img.shields.io/badge/Matplotlib-Glass-11557C?style=for-the-badge"/>
+</p>
 
 ---
 
-## 👾 Other Links:
-- [Stack Overflow](https://stackoverflow.com/users/yourid)
+### ☁ Dev Tools
+<p align="center">
+<img src="https://skillicons.dev/icons?i=git,docker,vscode,pycharm,nodejs,react,mysql,postgres" />
+</p>
+
+---
+
+## 🚀 Glass Featured Projects
+
+### 🧾 Bengali Handwritten Digit Recognition
+🧊 Deep Learning Bengali digit classifier  
+🧊 CNN + Computer Vision pipeline  
+
+---
+
+### 🌐 Network Traffic Classification
+🧊 VPN vs Non-VPN classification  
+🧊 ML based network pattern detection  
+
+---
+
+### 📰 Fake News Detection
+🧊 NLP + Text classification  
+🧊 Real dataset experimentation  
+
+---
+
+## 🌱 Learning Under The Glass Lab
+
+🧠 Reinforcement Learning  
+👁 Advanced Computer Vision  
+⚙ AI Model Production Optimization  
+☁ Scalable AI Deployment  
+
+---
+
+## 📈 GitHub Glass Analytics
+
+<p align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=hasiburrahman&show_icons=true&theme=transparent&hide_border=true"/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=hasiburrahman&theme=transparent&hide_border=true"/>
+</p>
+
+---
+
+## 🌐 Connect (Glass Buttons)
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/sakib-hasan-07149a30b/">
+<img src="https://img.shields.io/badge/LinkedIn-Glass-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:hasan.s4k1b@gmail.com">
+<img src="https://img.shields.io/badge/Email-Glass-D14836?style=for-the-badge&logo=gmail"/>
+</a>
+
+<a href="https://hasan-sakib.github.io/sakib.github.io/">
+<img src="https://img.shields.io/badge/Portfolio-Glass-000000?style=for-the-badge"/>
+</a>
+
+<a href="https://instagram.com/sakib_munshii">
+<img src="https://img.shields.io/badge/Instagram-Glass-E4405F?style=for-the-badge&logo=instagram"/>
+</a>
+
+</p>
+
+---
+
+## 🧊 Glass Motto
+
+<p align="center">
+
+> **Transforming Data → Intelligence → Future**
+
+</p>
+
+---
+
+<p align="center">
+⭐ Star repositories if you like my work
+</p>
