@@ -1,152 +1,177 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00E5FF,100:A855F7&height=250&section=header&text=Md%20Sakib%20Hasan&fontSize=52&fontAlignY=35&desc=Motion%20Glass%20Dashboard%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20ML%20%26%20Data%20Science&descAlignY=60" />
-</p>
+<!-- Your GitHub Profile README.md -->
+<div align="center">
+  <!-- Header with dynamic typing effect (if you want to add later) -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FFAA&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Computer+Vision+Researcher;Self-Supervised+Learning+Enthusiast;Building+Intelligent+Systems" alt="Typing SVG" />
+  <br/>
+  <!-- Profile Banner - feel free to replace with a custom banner link -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=200&section=header&text=Md.%20Sakib%20Hasan&fontSize=50&fontColor=fff&animation=twinkling&desc=AI%20%7C%20ML%20%7C%20DL%20%7C%20CV%20%7C%20Research&descSize=20&descAlignY=70" width="100%"/>
+</div>
 
+<!-- Badges Section (socials and contact) -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=2300&pause=400&color=7AF7FF&center=true&vCenter=true&width=900&lines=Floating+Glass+Cards+%F0%9F%A7%8A;Motion+Dashboard+%F0%9F%8C%8C;Computer+Vision+%E2%80%A2+NLP+%E2%80%A2+Optimization;Building+AI+Systems+For+Real+World+Impact" />
-</p>
-
-<p align="center">
-  <!-- Motion badges -->
-  <img src="https://img.shields.io/github/followers/hasiburrahman?label=Followers&style=for-the-badge&logo=github&color=7AF7FF" />
-  <img src="https://img.shields.io/github/stars/hasiburrahman?label=Stars&style=for-the-badge&logo=starship&color=A855F7" />
-  <img src="https://img.shields.io/badge/Motion-Enabled-00E5FF?style=for-the-badge" />
-  <img src="https://komarev.com/ghpvc/?username=hasiburrahman&style=for-the-badge&color=7AF7FF" />
+  <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Email-sakibmunshi013%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-sakib--hasan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-Hasan--Sakib-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-00B4AB?style=for-the-badge&logo=googlemaps&logoColor=white"/></a>
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=Hasan-Sakib&style=for-the-badge&color=brightgreen" alt="Profile views"/>
 </p>
 
 ---
 
-## 🧊 Motion Glass Dashboard
+## 👨‍💻 About Me
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+I am an **entry-level AI Engineer** with a strong foundation in machine learning, deep learning, and computer vision. I love building data-driven models, designing end-to-end AI pipelines, and deploying intelligent systems. My recent research on **self-supervised learning** for freshwater fish classification was accepted at **ICCIT 2025**.
 
-### 🪪 Glass Card — About
-- 🤖 AI Engineer building **real-world ML systems**
-- 📊 ML • DL • Data Science • Deployment
-- ⚡ Optimization + Experiment tracking
-- 🧠 CV • NLP • RL • Production AI
-
-**Now:** improving models + building end-to-end pipelines.
-
-    </td>
-    <td width="50%" valign="top">
-
-### ⚡ Motion Stack (Icons)
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,c,js&theme=dark" />
-</p>
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark" />
-</p>
-<p>
-  <img src="https://skillicons.dev/icons?i=git,docker,vscode,pycharm,mysql,postgres,react,nodejs&theme=dark" />
-</p>
-
-    </td>
-  </tr>
-</table>
+- 🔭 I’m currently seeking entry-level opportunities in **AI, ML, and data-driven roles**.
+- 🌱 I’m continuously enhancing my skills through hands-on practice and self-study.
+- 👯 I’m looking to collaborate on **Computer Vision, Self-Supervised Learning, and LLM projects**.
+- 📄 Check out my [CV](https://github.com/Hasan-Sakib/cv/blob/main/cv.pdf) for more details.
+- ⚡ Fun fact: I convert malware into images to detect them! (Check my final year project)
 
 ---
 
-## 🚀 Floating Project Cards
+## 🛠️ Technical Skills
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-
-### 🧾 Bengali Digit Recognition
-**Type:** CV + DL  
-**Motion:** model experiments + metrics  
-✅ Bengali handwritten digit classification
-
-    </td>
-    <td width="33%" valign="top">
-
-### 🌐 Network Traffic Classification
-**Type:** ML for security  
-**Motion:** evolving feature engineering  
-✅ VPN vs Non-VPN traffic detection
-
-    </td>
-    <td width="33%" valign="top">
-
-### 📰 Fake News Detection
-**Type:** NLP  
-**Motion:** better embeddings + classifiers  
-✅ Fake news prediction from articles
-
-    </td>
-  </tr>
-</table>
-
----
-
-## 📈 Motion Analytics (Animated)
-
+<!-- Icons with skill grouping - using modern shields with color coding -->
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=sakib_hasan&show_icons=true&hide_border=true&theme=radical&bg_color=0D1117" />
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=sakib-hasan&hide_border=true&theme=radical&background=0D1117" />
-</p>
+  <strong>Programming Languages</strong><br/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
+  <br/><br/>
+  
+  <strong>AI/ML & Deep Learning</strong><br/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <br/><br/>
 
-<p align="center">
-  <!-- Activity Graph gives a "moving dashboard" feel -->
-  <img height="220" src="https://github-readme-activity-graph.vercel.app/graph?username=hasiburrahman&bg_color=0D1117&color=7AF7FF&line=A855F7&point=FFFFFF&area=true&hide_border=true" />
+  <strong>Computer Vision & NLP</strong><br/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Image%20Classification-00B4AB?style=for-the-badge&logo=keras&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/LLM%20(Basic)-FF6F00?style=for-the-badge&logo=openai&logoColor=white"/>
+  <br/><br/>
+
+  <strong>Data Science & Visualization</strong><br/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white"/>
+  <br/><br/>
+
+  <strong>Web & Deployment</strong><br/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST%20API-25D366?style=for-the-badge&logo=swagger&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <br/><br/>
+
+  <strong>Tools & Platforms</strong><br/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"/>
 </p>
 
 ---
 
-## 🧊 Contribution Motion (Designed)
+## 📚 Research & Publications
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+### **Freshwater Fish Species Classification Using Self-Supervised Learning**  
+*Accepted at the 2025 28th International Conference on Computer and Information Technology (ICCIT)*  
 
-### 🔥 Contribution Streak
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hasiburrahman&theme=transparent&hide_border=true" />
-</p>
+- Proposed a self-supervised learning framework for freshwater fish image classification.  
+- Leveraged unlabeled image data to learn robust visual representations.  
+- Fine-tuned representations for downstream classification tasks.  
+- Demonstrated improved performance over supervised baselines with limited labeled data.
 
-    </td>
-    <td width="50%" valign="top">
+[![ICCIT Paper](https://img.shields.io/badge/ICCIT'25-Paper-00B4AB?style=flat-square&logo=readme)](link-to-paper-if-available)
 
-### 🧠 Contribution Summary
-<p>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hasiburrahman&theme=radical" />
-</p>
+---
 
-    </td>
-  </tr>
-</table>
+## 🚀 Featured Projects
+
+| Project | Description | Technologies | Links |
+|---------|-------------|--------------|-------|
+| **Vision-Based Self-Supervised Malware Detection** | • Converts executable files into image representations <br> • Applies self-supervised learning to reduce dependency on labeled datasets <br> • Web app for file upload and real-time prediction <br> • Integrated with backend APIs | Python, PyTorch/TensorFlow, Flask, HTML/CSS | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat&logo=github)](https://github.com/Hasan-Sakib/malware-detection) [![Live](https://img.shields.io/badge/Demo-00B4AB?style=flat&logo=vercel)](link-if-deployed) |
+| **Freshwater Fish Classification (SSL)** | • Self-supervised learning for fish species recognition <br> • Outperforms supervised baselines with limited labels | PyTorch, OpenCV, Scikit-learn | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat&logo=github)](https://github.com/Hasan-Sakib/fish-ssl) |
+| **End-to-End AI Pipeline (Template)** | • Template for building and deploying ML models <br> • Includes preprocessing, training, evaluation, API | Python, FastAPI, Docker, Scikit-learn | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat&logo=github)](https://github.com/Hasan-Sakib/ai-pipeline-template) |
+
+> 📌 *More projects are available in my [GitHub repositories](https://github.com/Hasan-Sakib?tab=repositories).*
+
+---
+
+## 🎓 Education
+
+| Degree | Institution | Year | Major / Focus |
+|--------|-------------|------|---------------|
+| **B.Sc. in Computer Science & Engineering** | East West University, Dhaka | Jan 2022 – Dec 2025 | Major in Data Science |
+| **Higher Secondary Certificate (HSC)** | Bangladesh Navy College, Dhaka | 2018 – 2020 | Science |
+
+### 📖 Relevant Coursework:
+`Artificial Intelligence` • `Machine Learning` • `Image Processing` • `Data Mining` • `Data Structures` • `Algorithms`
+
+---
+
+## 💡 Core Strengths & Interests
 
 <p align="center">
-  <!-- 3 more motion-like summary cards -->
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hasiburrahman&theme=radical" />
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hasiburrahman&theme=radical" />
+  <img src="https://img.shields.io/badge/Computer%20Vision%20Research-FF6F00?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI%20Model%20Development-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Research%20Writing%20%26%20Documentation-00599C?style=for-the-badge&logo=latex&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Problem%20Solving-00B4AB?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</p>
+
+### 🔬 Research Interests
+- Large Language Models (LLMs) and Generative AI  
+- Natural Language Processing (NLP)  
+- Representation Learning and Self-Supervised Learning  
+- Computer Vision and Multimodal Learning  
+- Applied Artificial Intelligence Systems  
+
+---
+
+## 📊 GitHub Stats & Activity
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Hasan-Sakib&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hasan-Sakib&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Streak" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hasan-Sakib&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="Activity Graph" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasan-Sakib&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="45%" alt="Top Languages" />
+</div>
+
+---
+
+## 🏆 Achievements & Certifications
+
+- **Research Publication** at ICCIT 2025 (International Conference)
+- **Final Year Project** on Vision-Based Malware Detection (Self-Supervised)
+- Actively participating in AI/ML hackathons and online courses
+- **Certifications**: (Add your Coursera/UDacity etc. if any)
+
+---
+
+## 📫 Connect With Me
+
+<p align="center">
+  <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Portfolio-00B4AB?style=for-the-badge&logo=internetexplorer&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <i>"Building intelligent systems, one model at a time."</i>
 </p>
 
 ---
 
-## 🌐 Floating Buttons
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/sakib-hasan-07149a30b/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:hasan.s4k1b@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Message-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://hasan-sakib.github.io/sakib.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-Explore-111827?style=for-the-badge&logo=firefoxbrowser&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/sakib_munshii">
-    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,100:00E5FF&height=160&section=footer&text=Transforming%20Data%20%E2%86%92%20Intelligence%20%E2%86%92%20Future&fontSize=22&fontAlignY=75" />
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=120&section=footer" width="100%"/>
+</div>
