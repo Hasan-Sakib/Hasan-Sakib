@@ -69,11 +69,7 @@ I am an **entry-level AI Engineer** with a strong foundation in machine learning
 
 ### 🌐 Web & Deployment
 <p>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST%20API-25D366?style=for-the-badge&logo=swagger&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://www.readmecodegen.com/api/social-icon?name=html5%2Ccss%2Cjavascript%2Creact%2Ctailwindcss%2Cbootstrap&size=64&shape=circle&animation=shake&animationDuration=3.8" alt="html5-css-javascript-react-tailwindcss-bootstrap" />
 </p>
 
 ### 🛠️ Tools & Platforms
