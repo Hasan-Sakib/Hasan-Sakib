@@ -37,7 +37,6 @@ I am an **entry-level AI Engineer** with a strong foundation in machine learning
 
 ### 👨‍💻 Programming Languages
 <p>
-  <img src="https://www.readmecodegen.com/api/social-icon?name=html5%2Ccss%2Cjavascript%2Creact%2Ctailwindcss%2Cbootstrap&animation=rainbow" alt="html5-css-javascript-react-tailwindcss-bootstrap" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -70,6 +69,7 @@ I am an **entry-level AI Engineer** with a strong foundation in machine learning
 ### 🌐 Web & Deployment
 <p>
 <img src="https://www.readmecodegen.com/api/social-icon?name=html5%2Ccss%2Cjavascript%2Creact%2Ctailwindcss%2Cbootstrap&size=64&shape=circle&animation=shake&animationDuration=3.8" alt="html5-css-javascript-react-tailwindcss-bootstrap" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=nodejs%2Cpython%2Cjava%2Cmysql%2Cmongodb%2Cdocker&size=64&shape=circle&animation=fade&animationDuration=3.8" alt="nodejs-python-java-mysql-mongodb-docker" />
 </p>
 
 ### 🛠️ Tools & Platforms
