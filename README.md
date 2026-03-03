@@ -21,7 +21,7 @@
 
 ## 👨‍💻 About Me
 
-I am an **entry-level AI Engineer** with a strong foundation in machine learning, deep learning, and computer vision. I love building data-driven models, designing end-to-end AI pipelines, and deploying intelligent systems. My recent research on **self-supervised learning** for freshwater fish classification was accepted at **ICCIT 2025**.
+I am an **entry-level AI Engineer** with a strong foundation in machine learning, deep learning, and computer vision. I love building data-driven models, designing end-to-end AI pipelines, and deploying intelligent systems.
 
 - 🔭 I’m currently seeking entry-level opportunities in **AI, ML, and data-driven roles**.
 - 🌱 I’m continuously enhancing my skills through hands-on practice and self-study.
