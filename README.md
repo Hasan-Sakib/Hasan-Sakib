@@ -1,165 +1,139 @@
-<!-- Pixel-style GitHub Profile — animated & dynamic components -->
+<!-- Pixel-style profile — aesthetic layout inspired by Ritik-style design -->
 <div align="center">
 
-  <!-- Animated pixel-style header (capsule-render with twinkling) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=200&section=header&text=Md.%20Sakib%20Hasan&fontSize=50&fontColor=fff&animation=twinkling&desc=AI%20%7C%20ML%20%7C%20DL%20%7C%20CV%20%7C%20Research&descSize=20&descAlignY=70" width="100%" alt="Header"/>
+  <!-- Hero: pixel-art style banner — use your own image URL for a custom landscape (e.g. assets/banner.png in profile repo) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=220&section=header&text=&fontSize=0&animation=twinkling" width="100%" alt="Banner"/>
 
-  <!-- Animated typing with pixel font (Press Start 2P) -->
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&duration=2800&pause=600&color=00FF41&center=true&vCenter=true&width=480&lines=AI%2FML+Engineer;Computer+Vision+Researcher;Self-Supervised+Learning;Building+Intelligent+Systems" alt="Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=2600&pause=700&color=00FF41&center=true&vCenter=true&width=420&lines=Hi%2C+I'm+Sakib+%F0%9F%91%8B;AI+%7C+ML+%7C+CV+%7C+Research;Building+Intelligent+Systems" alt="Typing" />
 
-  <!-- Optional: small pixel-style animated GIF -->
-  <img src="https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" width="70" alt="pixel" />
+  <sub>An AI/ML Engineer in the making</sub>
 
 </div>
 
 <br/>
 
+<!-- Metric badges: Visits · Repos · Followers (green-on-dark aesthetic) -->
 <div align="center">
 
-  **Connect**
-  <br/>
-  <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Email-sakibmunshi013%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-sakib--hasan-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-Hasan--Sakib-181717?style=flat-square&logo=github&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Dhaka%2C%20Bangladesh-00B4AB?style=flat-square&logo=googlemaps&logoColor=white"/></a>
-  <br/>
-  <img src="https://komarev.com/ghpvc/?username=Hasan-Sakib&style=flat-square&color=00FF41" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Hasan-Sakib&style=for-the-badge&labelColor=0d1117&color=00FF41&label=Visits" alt="Visits"/>
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=0d1117&color=00FF41&label=Repos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FHasan-Sakib" alt="Repos"/>
+  <img src="https://img.shields.io/github/followers/Hasan-Sakib?style=for-the-badge&labelColor=0d1117&color=00FF41&label=Followers" alt="Followers"/>
+
+</div>
+
+<div align="center">
+  <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Dhaka%2C%20Bangladesh-00B4AB?style=flat-square&logo=map&logoColor=white"/></a>
+</div>
+
+---
+
+## About Me
+
+🎓 **B.Sc. in CSE** (Data Science) from East West University, Dhaka — passionate about learning and building with data.
+
+💡 I love **problem-solving**, **mentoring**, and turning ideas into working systems. Right now I’m focused on **AI/ML**, **Computer Vision**, and **Self-Supervised Learning** — and I’m looking for entry-level opportunities in AI, ML, and data-driven roles.
+
+🤖 I enjoy collaborating on **Computer Vision**, **Self-Supervised Learning**, and **LLM** projects. You can find more in my [CV](https://github.com/Hasan-Sakib/cv/blob/main/cv.pdf).
+
+⚡ **Fun fact:** I turn malware into images to detect them (final year project).
+
+---
+
+## Technology Stack
+
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TF"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## My GitHub Stats
 
-I am an **entry-level AI Engineer** with a strong foundation in machine learning, deep learning, and computer vision. I love building data-driven models, designing end-to-end AI pipelines, and deploying intelligent systems.
-
-- 🔭 Seeking entry-level opportunities in **AI, ML, and data-driven roles**
-- 🌱 Continuously enhancing skills through hands-on practice and self-study
-- 👯 Looking to collaborate on **Computer Vision, Self-Supervised Learning, and LLM projects**
-- 📄 [CV](https://github.com/Hasan-Sakib/cv/blob/main/cv.pdf)
-- ⚡ Fun fact: I convert malware into images to detect them! (Final year project)
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=Hasan-Sakib&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&show_rank=true&rank_icon=github&border_color=00FF41" width="100%" alt="Stats"/>
+    </td>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasan-Sakib&layout=compact&theme=radical&hide_border=true&langs_count=8&border_color=00FF41" width="100%" alt="Top Langs"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🛠️ Technical Skills
+## Contributions & Streak
 
 <div align="center">
 
-**Programming**  
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-
-**AI/ML & DL**  
-<img src="https://img.shields.io/badge/Machine_Learning-102230?style=flat-square&logo=scikitlearn&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-
-**Vision & NLP**  
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" /> <img src="https://img.shields.io/badge/Image_Classification-00B4AB?style=flat-square&logo=keras&logoColor=white" /> <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/LLM_%28Basic%29-FF6F00?style=flat-square&logo=openai&logoColor=white" />
-
-**Data & Viz**  
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white" />
-
-**Web & Tools**  
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hasan-Sakib&theme=radical&hide_border=true&border_color=00FF41&fire=FF6F00&ring=00FF41" width="100%" alt="Streak"/>
 
 </div>
 
+*Optional: add the [contribution snake](.github/workflows/snake.yml) to your profile repo for a pixel-game style graph.*
+
 ---
 
-## 📚 Research & Publications
+## Research & Publications
 
 **Freshwater Fish Species Classification Using Self-Supervised Learning**  
-*Accepted at the 2025 28th International Conference on Computer and Information Technology (ICCIT)*
+*Accepted at ICCIT 2025 — 28th International Conference on Computer and Information Technology*
 
-- Self-supervised framework for freshwater fish image classification
-- Leveraged unlabeled data for robust visual representations
-- Fine-tuned for downstream classification; outperformed supervised baselines with limited labels
+- Self-supervised framework for freshwater fish image classification  
+- Unlabeled data for robust visual representations  
+- Outperformed supervised baselines with limited labels  
 
 [![ICCIT Paper](https://img.shields.io/badge/ICCIT'25-Paper-00B4AB?style=flat-square)](link-to-paper-if-available)
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-| Project | Description | Tech | Links |
-|:---|:---|:---|:---|
-| **Vision-Based Malware Detection** | Executables → images, SSL, web app + API | Python, PyTorch/TF, Flask, HTML/CSS | [Repo](https://github.com/Hasan-Sakib/malware-detection) |
-| **Freshwater Fish Classification (SSL)** | Self-supervised fish species recognition | PyTorch, OpenCV, Scikit-learn | [Repo](https://github.com/Hasan-Sakib/fish-ssl) |
-| **End-to-End AI Pipeline (Template)** | Preprocessing, training, eval, API | Python, FastAPI, Docker, Scikit-learn | [Repo](https://github.com/Hasan-Sakib/ai-pipeline-template) |
+| Project | Description | Stack |
+|:---|:---|:---|
+| **Vision-Based Malware Detection** | Executables → images, SSL, web app + API | Python, PyTorch/TF, Flask |
+| **Freshwater Fish Classification (SSL)** | Self-supervised fish species recognition | PyTorch, OpenCV, Scikit-learn |
+| **End-to-End AI Pipeline** | Preprocessing, training, eval, API template | Python, FastAPI, Docker |
 
-> More in [GitHub repositories](https://github.com/Hasan-Sakib?tab=repositories).
-
----
-
-## 🐍 Contribution Snake (pixel-game style)
-
-*Snake eats your contribution graph — runs via GitHub Actions. To enable: copy [`.github/workflows/snake.yml`](.github/workflows/snake.yml) into your **profile repo** `Hasan-Sakib/Hasan-Sakib` and push.*
-
-<div align="center">
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hasan-Sakib/Hasan-Sakib/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hasan-Sakib/Hasan-Sakib/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Hasan-Sakib/Hasan-Sakib/output/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%" />
-  </picture>
-
-</div>
+More in [repositories](https://github.com/Hasan-Sakib?tab=repositories).
 
 ---
 
-## 🎓 Education
+## Education
 
-| Degree | Institution | Year | Focus |
-|:---|:---|:---|:---|
-| **B.Sc. CSE** | East West University, Dhaka | 2022 – 2025 | Data Science |
-| **HSC** | Bangladesh Navy College, Dhaka | 2018 – 2020 | Science |
+**B.Sc. in Computer Science & Engineering** — East West University, Dhaka (2022–2025) · *Data Science*  
+**HSC** — Bangladesh Navy College, Dhaka (2018–2020) · *Science*
 
-**Coursework:** `Artificial Intelligence` `Machine Learning` `Image Processing` `Data Mining` `Data Structures` `Algorithms`
+*Coursework:* AI · Machine Learning · Image Processing · Data Mining · Data Structures · Algorithms
 
 ---
 
-## 💡 Interests & Strengths
+## Connect
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Computer_Vision_Research-FF6F00?style=flat-square&logo=opencv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AI_Model_Development-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Research_%26_Docs-00599C?style=flat-square&logo=latex&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Problem_Solving-00B4AB?style=flat-square&logo=leetcode&logoColor=white"/>
-</p>
-
-**Research:** LLMs & Generative AI · NLP · Representation & Self-Supervised Learning · Computer Vision & Multimodal · Applied AI
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=Hasan-Sakib&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&border_color=00FF41" width="48%" alt="Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hasan-Sakib&theme=radical&hide_border=true&border_color=00FF41" width="48%" alt="Streak" />
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hasan-Sakib&theme=react-dark&hide_border=true&area=true&color=00FF41" width="96%" alt="Activity" />
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasan-Sakib&layout=compact&theme=radical&hide_border=true&langs_count=8&border_color=00FF41" width="45%" alt="Top Langs" />
-
-</div>
-
----
-
-## 🏆 Achievements
-
-- Research publication at **ICCIT 2025**
-- Final year project: **Vision-Based Malware Detection (SSL)**
-- AI/ML hackathons & online courses
-- Certifications: (Coursera/UDacity etc. if any)
-
----
-
-## 📫 Connect
-
-<p align="center">
-  <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Portfolio-00B4AB?style=flat-square&logo=internetexplorer&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Portfolio-00B4AB?style=for-the-badge&logo=link&logoColor=white"/></a>
 </p>
 
 <p align="center"><i>"Building intelligent systems, one model at a time."</i></p>
@@ -167,5 +141,5 @@ I am an **entry-level AI Engineer** with a strong foundation in machine learning
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=120&section=footer" width="100%" alt="Footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer" width="100%" alt=""/>
 </div>
