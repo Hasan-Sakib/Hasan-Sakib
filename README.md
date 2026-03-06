@@ -1,391 +1,181 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixel Forge · Sakib Hasan</title>
-    <!-- Google Fonts + Pixelated vibe -->
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            image-rendering: pixelated;
-            image-rendering: crisp-edges;
-        }
-        body {
-            background: #0c0b1a; /* deep night */
-            font-family: 'Space Mono', monospace;
-            color: #a0f0e0;
-            display: flex;
-            justify-content: center;
-            padding: 16px 12px;
-            line-height: 1.5;
-            text-shadow: 0 0 5px #00ccaa80;
-        }
-        .pixel-container {
-            max-width: 1100px;
-            width: 100%;
-            border: 4px solid #4af0c0;
-            box-shadow: 0 0 0 2px #0f3f3a, 0 0 0 6px #1e2a3a, 0 0 20px #00ffc3;
-            background: #0f121c;
-            padding: 24px 20px;
-            position: relative;
-            animation: flicker 8s infinite;
-        }
-        /* scanlines & crt effect */
-        .pixel-container::before {
-            content: "";
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: repeating-linear-gradient(0deg, rgba(0,255,200,0.03) 0px, rgba(0,0,0,0.2) 2px, transparent 3px);
-            pointer-events: none;
-            z-index: 2;
-        }
-        .pixel-container::after {
-            content: "";
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: radial-gradient(circle at 50% 50%, #00ffe050 0%, transparent 80%);
-            opacity: 0.1;
-            pointer-events: none;
-        }
-        @keyframes flicker {
-            0% { opacity: 0.98; }
-            2% { opacity: 1; }
-            4% { opacity: 0.97; }
-            96% { opacity: 1; }
-            98% { opacity: 0.95; }
-            100% { opacity: 0.99; }
-        }
-        h1, h2, h3 {
-            font-family: 'Press Start 2P', cursive;
-            color: #f0f4a0;
-            text-shadow: 3px 3px 0 #2d5a5a, 5px 5px 0 #0f3f3a;
-            letter-spacing: 1px;
-            word-break: break-word;
-        }
-        h2 {
-            font-size: 1.2rem;
-            margin: 32px 0 16px 0;
-            border-bottom: 4px solid #3bc0b0;
-            display: inline-block;
-            padding-bottom: 6px;
-        }
-        .badge-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px 12px;
-            justify-content: center;
-            margin: 20px 0 10px;
-        }
-        .badge-pixel {
-            background: #1a2a32;
-            border: 2px solid #5af0d0;
-            color: #c0ffee;
-            padding: 8px 12px;
-            font-size: 0.75rem;
-            font-family: 'Press Start 2P', cursive;
-            text-transform: uppercase;
-            text-decoration: none;
-            box-shadow: inset -2px -2px 0 #0a1f1f, inset 2px 2px 0 #9fffe0;
-            transition: 0.1s linear;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .badge-pixel:hover {
-            background: #2f4f4f;
-            border-color: #f0ffb0;
-            transform: translate(2px, 2px);
-            box-shadow: inset -1px -1px 0 #0a1f1f;
-        }
-        .badge-pixel img, .badge-pixel svg {
-            width: 18px;
-            height: 18px;
-            image-rendering: pixelated;
-            filter: drop-shadow(0 0 4px #aaffdd);
-        }
-        /* terminal-style typing header */
-        .crt-header {
-            background: #0a141c;
-            border: 3px solid #3caa9a;
-            padding: 16px;
-            margin-bottom: 24px;
-            box-shadow: inset 0 0 20px #1f4a4a;
-            font-family: 'Space Mono', monospace;
-        }
-        .typewriter {
-            font-size: 1.3rem;
-            color: #b4ffe0;
-            text-shadow: 0 0 8px #00e6b0;
-            overflow: hidden;
-            white-space: nowrap;
-            border-right: 3px solid #a0ffc0;
-            animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
-            width: fit-content;
-            max-width: 100%;
-        }
-        @keyframes typing {
-            from { width: 0; }
-            to { width: 100%; }
-        }
-        @keyframes blink-caret {
-            from, to { border-color: transparent; }
-            50% { border-color: #a0ffc0; }
-        }
-        .skill-icon-row {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 16px;
-            align-items: center;
-            justify-content: center;
-            margin: 15px 0;
-        }
-        .pixel-icon {
-            background: #1d2d2d;
-            border: 2px solid #2f9f9f;
-            width: 64px;
-            height: 64px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2rem;
-            image-rendering: pixelated;
-            box-shadow: 3px 3px 0 #062020;
-        }
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-        .project-card {
-            background: #142026;
-            border: 3px solid #2dbbaa;
-            padding: 18px 12px;
-            box-shadow: 5px 5px 0 #0b3535;
-            transition: 0.1s;
-        }
-        .project-card:hover {
-            border-color: #fdffb0;
-            box-shadow: 2px 2px 0 #aaffdd, 0 0 18px #6fffd0;
-        }
-        .project-card h3 {
-            font-size: 0.9rem;
-            margin-bottom: 12px;
-            color: #fcf9b0;
-        }
-        .pixel-tag {
-            background: #1e3a3a;
-            border: 1px solid #2ac0aa;
-            font-size: 0.6rem;
-            padding: 4px 8px;
-            margin: 2px 4px 2px 0;
-            display: inline-block;
-            font-family: 'Press Start 2P', cursive;
-        }
-        .stats-panel {
-            background: #0e1b24;
-            border: 4px solid #3dc0b0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px 10px;
-            margin: 30px 0;
-        }
-        .stat-cell {
-            font-family: 'Press Start 2P', cursive;
-            font-size: 0.8rem;
-            color: #f0ffc0;
-            background: #1b2d30;
-            padding: 15px;
-            border: 2px solid #00c0a0;
-            min-width: 150px;
-            text-align: center;
-        }
-        hr {
-            border: none;
-            height: 4px;
-            background: linear-gradient(90deg, #2fbbaa, #f0f0a0, #2fbbaa);
-            margin: 28px 0;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.7rem;
-            color: #50b0a0;
-        }
-        .glitch-link {
-            color: #8cf0e0;
-            text-decoration: none;
-            border-bottom: 2px dotted #6fffd0;
-        }
-        .glitch-link:hover {
-            color: #faffa0;
-            border-bottom: 2px solid #f0ffa0;
-        }
-        /* pixel octocat / icons */
-        .pixel-octo {
-            background: #2f4f4f;
-            mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.098-2.646 0 0 .84-.269 2.75 1.025.8-.223 1.65-.334 2.5-.334.85 0 1.7.111 2.5.334 1.91-1.294 2.75-1.025 2.75-1.025.545 1.376.201 2.393.099 2.646.64.698 1.03 1.591 1.03 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>') no-repeat center;
-            background-color: #8cf0d0;
-        }
-    </style>
-</head>
-<body>
-    <div class="pixel-container">
-        <!-- HEADER: pixel typing animation -->
-        <div class="crt-header">
-            <div class="typewriter">> AI/ML ENGINEER // CV RESEARCHER // PIXEL_FUTURE</div>
-            <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: space-between; margin-top: 15px;">
-                <span class="badge-pixel">📍 DHAKA, BANGLADESH</span>
-                <span class="badge-pixel">📧 SAKIBMUNSHI013@GMAIL.COM</span>
-                <span class="badge-pixel">🔗 @HASAN-SAKIB</span>
-            </div>
-            <div class="badge-grid">
-                <a href="#" class="badge-pixel"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2388ffdd'%3E%3Cpath d='M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM8 12H6v-2h2v2zm3 0H9v-2h2v2zm3 0h-2v-2h2v2zm6-4H4V8h16z'/%3E%3C/svg%3E"> MAIL</a>
-                <a href="#" class="badge-pixel"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2388ffdd'%3E%3Cpath d='M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z'/%3E%3C/svg%3E"> LINKEDIN</a>
-                <a href="#" class="badge-pixel"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2388ffdd'%3E%3Cpath d='M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.098-2.646 0 0 .84-.269 2.75 1.025.8-.223 1.65-.334 2.5-.334.85 0 1.7.111 2.5.334 1.91-1.294 2.75-1.025 2.75-1.025.545 1.376.201 2.393.099 2.646.64.698 1.03 1.591 1.03 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.418 22 12c0-5.523-4.477-10-10-10z'/%3E%3C/svg%3E"> GITHUB</a>
-                <span class="badge-pixel">👁️ 1337 views</span>
-            </div>
-        </div>
+<!-- Your GitHub Profile README.md -->
+<div align="center">
+  <!-- Header with dynamic typing effect (if you want to add later) -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FFAA&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Computer+Vision+Researcher;Self-Supervised+Learning+Enthusiast;Building+Intelligent+Systems" alt="Typing SVG" />
+  <br/>
+  <!-- Profile Banner - feel free to replace with a custom banner link -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=200&section=header&text=Md.%20Sakib%20Hasan&fontSize=50&fontColor=fff&animation=twinkling&desc=AI%20%7C%20ML%20%7C%20DL%20%7C%20CV%20%7C%20Research&descSize=20&descAlignY=70" width="100%"/>
+</div>
 
-        <!-- About Me Pixel block -->
-        <h2>⏣ ABOUT_ME</h2>
-        <div style="background: #0a1620; padding: 20px; border: 2px solid #4ac0b0; font-size: 0.9rem;">
-            <p><span style="color:#f0ffa0;">></span> entry-level AI engineer · building intelligent systems with computer vision & self-supervised learning.</p>
-            <p><span style="color:#f0ffa0;">></span> seeking 2025 roles in AI/ML, CV, or data science.</p>
-            <p><span style="color:#f0ffa0;">></span> fun fact: I convert malware into images to detect them (final year project).</p>
-            <p><span style="color:#f0ffa0;">></span> ICCIT 2025 publication · freshwater fish classification via SSL.</p>
-        </div>
+<!-- Badges Section (socials and contact) -->
+<p align="center">
+  <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Email-sakibmunshi013%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-sakib--hasan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-Hasan--Sakib-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-00B4AB?style=for-the-badge&logo=googlemaps&logoColor=white"/></a>
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=Hasan-Sakib&style=for-the-badge&color=brightgreen" alt="Profile views"/>
+</p>
 
-        <!-- Skills pixelated icons + badges -->
-        <h2>⚙️ TECH_STACK</h2>
-        <div class="skill-icon-row">
-            <div class="pixel-icon">🐍</div>
-            <div class="pixel-icon">☕</div>
-            <div class="pixel-icon">C</div>
-            <div class="pixel-icon">🧠</div>
-            <div class="pixel-icon">🔥</div>
-            <div class="pixel-icon">📦</div>
-        </div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: center;">
-            <span class="badge-pixel">PYTORCH</span>
-            <span class="badge-pixel">TENSORFLOW</span>
-            <span class="badge-pixel">OPENCV</span>
-            <span class="badge-pixel">HUGGINGFACE</span>
-            <span class="badge-pixel">SCI-KIT</span>
-            <span class="badge-pixel">PANDAS</span>
-            <span class="badge-pixel">NUMPY</span>
-            <span class="badge-pixel">FASTAPI</span>
-            <span class="badge-pixel">DOCKER</span>
-            <span class="badge-pixel">GIT</span>
-            <span class="badge-pixel">JUPYTER</span>
-            <span class="badge-pixel">COLAB</span>
-        </div>
+---
 
-        <!-- Research / publications -->
-        <h2>📄 RESEARCH</h2>
-        <div style="border: 3px solid #3bc0b0; padding: 16px; background: #0a2028;">
-            <div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
-                <span class="badge-pixel" style="font-size:1rem;">📑 ICCIT 2025</span>
-                <span><em>Freshwater Fish Species Classification Using Self-Supervised Learning</em></span>
-            </div>
-            <p style="margin-top:12px;">+ proposed SSL framework outperforms supervised baselines with limited labels · unlabeled image data · robust visual representations</p>
-        </div>
+## 👨‍💻 About Me
 
-        <!-- Featured projects with pixel cards -->
-        <h2>🚀 PROJECTS</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>MALWARE DETECTION (SSL)</h3>
-                <p>Convert EXEs → images · self-supervised learning · Flask webapp + real-time inference</p>
-                <div>
-                    <span class="pixel-tag">PYTORCH</span>
-                    <span class="pixel-tag">FLASK</span>
-                    <span class="pixel-tag">OPENCV</span>
-                </div>
-                <div style="margin-top:12px;"><a href="#" class="glitch-link">[ REPO ]</a> <a href="#" class="glitch-link">[ DEMO ]</a></div>
-            </div>
-            <div class="project-card">
-                <h3>FISH CLASSIFICATION (SSL)</h3>
-                <p>Self-supervised learning for 12 freshwater species · fine-tuned representations</p>
-                <div>
-                    <span class="pixel-tag">PYTORCH</span>
-                    <span class="pixel-tag">RESNET</span>
-                    <span class="pixel-tag">SIMCLR</span>
-                </div>
-                <div style="margin-top:12px;"><a href="#" class="glitch-link">[ REPO ]</a></div>
-            </div>
-            <div class="project-card">
-                <h3>END-TO-END AI PIPELINE</h3>
-                <p>Template with preprocessing, training, FastAPI, Docker · ready to deploy</p>
-                <div>
-                    <span class="pixel-tag">FASTAPI</span>
-                    <span class="pixel-tag">SKLEARN</span>
-                    <span class="pixel-tag">DOCKER</span>
-                </div>
-                <div style="margin-top:12px;"><a href="#" class="glitch-link">[ REPO ]</a></div>
-            </div>
-        </div>
+I am an **entry-level AI Engineer** with a strong foundation in machine learning, deep learning, and computer vision. I love building data-driven models, designing end-to-end AI pipelines, and deploying intelligent systems.
 
-        <!-- Education pixel grid -->
-        <h2>🎓 EDUCATION</h2>
-        <div style="display: flex; flex-direction: column; gap: 12px;">
-            <div style="display: flex; gap: 10px; background:#14242c; border:2px solid #2faf9f; padding:10px;">
-                <span style="min-width:100px;">2022–2025</span> <span><strong>B.Sc. CSE (Data Science)</strong> — East West University, Dhaka</span>
-            </div>
-            <div style="display: flex; gap: 10px; background:#14242c; border:2px solid #2faf9f; padding:10px;">
-                <span style="min-width:100px;">2018–2020</span> <span><strong>HSC (Science)</strong> — Bangladesh Navy College</span>
-            </div>
-            <div class="badge-grid" style="justify-content:flex-start;">
-                <span class="badge-pixel">AI</span>
-                <span class="badge-pixel">ML</span>
-                <span class="badge-pixel">IMAGE PROCESSING</span>
-                <span class="badge-pixel">DATA MINING</span>
-                <span class="badge-pixel">ALGORITHMS</span>
-            </div>
-        </div>
+- 🔭 I’m currently seeking entry-level opportunities in **AI, ML, and data-driven roles**.
+- 🌱 I’m continuously enhancing my skills through hands-on practice and self-study.
+- 👯 I’m looking to collaborate on **Computer Vision, Self-Supervised Learning, and LLM projects**.
+- 📄 Check out my [CV](https://github.com/Hasan-Sakib/cv/blob/main/cv.pdf) for more details.
+- ⚡ Fun fact: I convert malware into images to detect them! (Check my final year project)
 
-        <!-- GitHub stats but with pixel style / fake retro stats (you can replace with actual iframe later) -->
-        <h2>📊 PIXEL_STATS</h2>
-        <div class="stats-panel">
-            <div class="stat-cell">COMMITS: 1.2k<br/> <span style="color:#80ffc0;">▲ +327</span></div>
-            <div class="stat-cell">REPOS: 24<br/> <span style="color:#f0ffa0;">⭐ 42</span></div>
-            <div class="stat-cell">STREAK: 147d<br/> <span style="color:#ffb56b;">⚡active</span></div>
-            <div class="stat-cell">LANG: PYTHON<br/> 78%</div>
-        </div>
-        <!-- activity graph (pure pixel placeholder) -->
-        <div style="background:#0a1a1a; width:100%; height:70px; border:3px solid #2fbbaa; display:flex; align-items:center; justify-content:center; color:#a0f0d0; font-family:'Press Start 2P'; font-size:0.6rem;">
-            ███ ██ ████ █ ███   ████ ██  ██   ███  █████  ████  (activity grid)
-        </div>
+---
 
-        <!-- Core Strengths / interests -->
-        <h2>💡 CORE_STRENGTHS</h2>
-        <div style="display: flex; flex-wrap: wrap; gap:10px; justify-content:center;">
-            <span class="badge-pixel">COMPUTER VISION</span>
-            <span class="badge-pixel">SELF-SUPERVISED</span>
-            <span class="badge-pixel">LLM (BASIC)</span>
-            <span class="badge-pixel">RESEARCH WRITING</span>
-            <span class="badge-pixel">PROBLEM SOLVING</span>
-        </div>
-        <hr/>
-        <!-- connect & retro footer -->
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items:center;">
-            <span style="font-family:'Press Start 2P'; font-size:0.8rem;">>_ CONNECT</span>
-            <div style="display:flex; gap: 10px;">
-                <a href="#" class="badge-pixel">🐦 TWITTER</a>
-                <a href="#" class="badge-pixel">📧 EMAIL</a>
-                <a href="#" class="badge-pixel">💼 PORTFOLIO</a>
-            </div>
-        </div>
-        <footer>
-            <span style="display:block; margin: 24px 0 8px;">⚡ "Building intelligent systems, one pixel at a time." ⚡</span>
-            <span>© 2025 HASAN-SAKIB // RETRO PIXEL EDITION</span>
-        </footer>
-    </div>
-</body>
-</html>
+## 🛠️ Technical Skills
+
+<div align="center">
+
+### 👨‍💻 Programming Languages
+<p>
+  <img src="https://www.readmecodegen.com/api/social-icon?name=python&size=64&shape=circle&animationDuration=3.8&color=%23f59e0b" alt="python" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+</p>
+
+### 🤖 AI/ML & Deep Learning
+<p>
+  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+</p>
+
+### 👁️ Computer Vision & NLP
+<p>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Image%20Classification-00B4AB?style=for-the-badge&logo=keras&logoColor=white" />
+  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/LLM%20(Basic)-FF6F00?style=for-the-badge&logo=openai&logoColor=white" />
+</p>
+
+### 📊 Data Science & Visualization
+<p>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+### 🌐 Web & Deployment
+<p>
+<img src="https://www.readmecodegen.com/api/social-icon?name=html5%2Ccss%2Cjavascript%2Creact%2Ctailwindcss%2Cbootstrap&size=64&shape=circle&animation=shake&animationDuration=3.8" alt="html5-css-javascript-react-tailwindcss-bootstrap" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=nodejs%2Cpython%2Cjava%2Cmysql%2Cmongodb%2Cdocker&size=64&shape=circle&animation=fade&animationDuration=3.8" alt="nodejs-python-java-mysql-mongodb-docker" />
+</p>
+
+### 🛠️ Tools & Platforms
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+</p>
+
+</div>
+---
+
+## 📚 Research & Publications
+
+### **Freshwater Fish Species Classification Using Self-Supervised Learning**  
+*Accepted at the 2025 28th International Conference on Computer and Information Technology (ICCIT)*  
+
+- Proposed a self-supervised learning framework for freshwater fish image classification.  
+- Leveraged unlabeled image data to learn robust visual representations.  
+- Fine-tuned representations for downstream classification tasks.  
+- Demonstrated improved performance over supervised baselines with limited labeled data.
+
+[![ICCIT Paper](https://img.shields.io/badge/ICCIT'25-Paper-00B4AB?style=flat-square&logo=readme)](link-to-paper-if-available)
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Technologies | Links |
+|---------|-------------|--------------|-------|
+| **Vision-Based Self-Supervised Malware Detection** | • Converts executable files into image representations <br> • Applies self-supervised learning to reduce dependency on labeled datasets <br> • Web app for file upload and real-time prediction <br> • Integrated with backend APIs | Python, PyTorch/TensorFlow, Flask, HTML/CSS | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat&logo=github)](https://github.com/Hasan-Sakib/malware-detection) [![Live](https://img.shields.io/badge/Demo-00B4AB?style=flat&logo=vercel)](link-if-deployed) |
+| **Freshwater Fish Classification (SSL)** | • Self-supervised learning for fish species recognition <br> • Outperforms supervised baselines with limited labels | PyTorch, OpenCV, Scikit-learn | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat&logo=github)](https://github.com/Hasan-Sakib/fish-ssl) |
+| **End-to-End AI Pipeline (Template)** | • Template for building and deploying ML models <br> • Includes preprocessing, training, evaluation, API | Python, FastAPI, Docker, Scikit-learn | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat&logo=github)](https://github.com/Hasan-Sakib/ai-pipeline-template) |
+
+> 📌 *More projects are available in my [GitHub repositories](https://github.com/Hasan-Sakib?tab=repositories).*
+
+---
+
+## 🎓 Education
+
+| Degree | Institution | Year | Major / Focus |
+|--------|-------------|------|---------------|
+| **B.Sc. in Computer Science & Engineering** | East West University, Dhaka | Jan 2022 – Dec 2025 | Major in Data Science |
+| **Higher Secondary Certificate (HSC)** | Bangladesh Navy College, Dhaka | 2018 – 2020 | Science |
+
+### 📖 Relevant Coursework:
+`Artificial Intelligence` • `Machine Learning` • `Image Processing` • `Data Mining` • `Data Structures` • `Algorithms`
+
+---
+
+## 💡 Core Strengths & Interests
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Computer%20Vision%20Research-FF6F00?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI%20Model%20Development-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Research%20Writing%20%26%20Documentation-00599C?style=for-the-badge&logo=latex&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Problem%20Solving-00B4AB?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</p>
+
+### 🔬 Research Interests
+- Large Language Models (LLMs) and Generative AI  
+- Natural Language Processing (NLP)  
+- Representation Learning and Self-Supervised Learning  
+- Computer Vision and Multimodal Learning  
+- Applied Artificial Intelligence Systems  
+
+---
+
+## 📊 GitHub Stats & Activity
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Hasan-Sakib&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hasan-Sakib&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Streak" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hasan-Sakib&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="Activity Graph" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasan-Sakib&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="45%" alt="Top Languages" />
+</div>
+
+---
+
+## 🏆 Achievements & Certifications
+
+- **Research Publication** at ICCIT 2025 (International Conference)
+- **Final Year Project** on Vision-Based Malware Detection (Self-Supervised)
+- Actively participating in AI/ML hackathons and online courses
+- **Certifications**: (Add your Coursera/UDacity etc. if any)
+
+---
+
+## 📫 Connect With Me
+
+<p align="center">
+  <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Portfolio-00B4AB?style=for-the-badge&logo=internetexplorer&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <i>"Building intelligent systems, one model at a time."</i>
+</p>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=120&section=footer" width="100%"/>
+</div>
