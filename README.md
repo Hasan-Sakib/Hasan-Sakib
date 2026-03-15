@@ -1,7 +1,7 @@
 <!-- Your GitHub Profile README.md -->
 <div align="center">
   <!-- Header with dynamic typing effect (if you want to add later) -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FFAA&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Computer+Vision+Researcher;Self-Supervised+Learning+Enthusiast;Building+Intelligent+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FFAA&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Computer+Vision+Researcher;Building+Intelligent+Systems" alt="Typing SVG" />
   <br/>
   <!-- Profile Banner - feel free to replace with a custom banner link -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=200&section=header&text=Md.%20Sakib%20Hasan&fontSize=50&fontColor=fff&animation=twinkling&desc=AI%20%7C%20ML%20%7C%20DL%20%7C%20CV%20%7C%20Research&descSize=20&descAlignY=70" width="100%"/>
