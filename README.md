@@ -20,25 +20,17 @@
 
 ---
 
-## 🧠 About Me
+##  About Me
 
-I'm an **AI/ML Engineer** and **Full Stack Developer** with a focus on computer vision, self-supervised learning, and building end-to-end intelligent systems. I enjoy bridging the gap between research and production — from training models to deploying full-featured web applications.
+I'm a passionate **AI/ML Engineer** and **Full Stack Developer** driven by the challenge of turning research ideas into real-world intelligent systems. My work spans the full stack — designing and training deep learning models, building scalable REST APIs, and deploying production-ready web applications.
 
-```python
-profile = {
-    "name"      : "Md. Sakib Hasan",
-    "focus"     : ["AI/ML Engineering", "Computer Vision", "Full Stack Development"],
-    "interests" : ["Self-Supervised Learning", "LLMs", "Multimodal AI", "NLP"],
-    "status"    : "Open to entry-level AI / ML / SWE roles",
-    "fun_fact"  : "I convert malware into images to detect them 🦠🖼️"
-}
-```
+With hands-on experience in **Computer Vision**, **Self-Supervised Learning**, and **Neural Network Architectures**, I focus on solving problems where labeled data is scarce and generalization matters.
 
 ---
 
 ## 🛠️ Technical Stack
 
-### 🤖 AI / ML / Deep Learning
+### AI / ML / Deep Learning
 
 <p align="center">
   <a href="#"><img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" title="PyTorch"/></a>
@@ -56,7 +48,7 @@ profile = {
 
 ---
 
-### 📊 Data Science & Analysis
+###  Data Science & Analysis
 
 <p align="center">
   <a href="#"><img src="https://skillicons.dev/icons?i=python" alt="Python" title="Python"/></a>
@@ -86,7 +78,7 @@ profile = {
 
 ---
 
-### 🗄️ Databases & DevOps
+###  Databases & DevOps
 
 <p align="center">
   <a href="#"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL"/></a>
@@ -98,7 +90,7 @@ profile = {
 
 ---
 
-### 💻 Programming Languages
+###  Programming Languages
 
 <p align="center">
   <a href="#"><img src="https://skillicons.dev/icons?i=python" alt="Python" title="Python"/></a>
@@ -109,67 +101,10 @@ profile = {
   <a href="#"><img src="https://skillicons.dev/icons?i=css" alt="CSS3" title="CSS3"/></a>
 </p>
 
----
 
-## 🚀 Featured Projects
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 🦠 [**Vision-Based Malware Detection**](https://github.com/Hasan-Sakib/malware-detection) | Converts executables into image representations; applies self-supervised learning to classify malware with minimal labels. Includes a full-stack web app for real-time file upload and prediction. | Python · PyTorch · Flask · HTML/CSS |
-| 🐟 [**Freshwater Fish Classification (SSL)**](https://github.com/Hasan-Sakib/fish-ssl) | Self-supervised learning framework for fish species recognition. Outperforms supervised baselines under limited labeled data. *(ICCIT 2025 research project)* | PyTorch · OpenCV · Scikit-learn |
-| ⚙️ [**End-to-End AI Pipeline Template**](https://github.com/Hasan-Sakib/ai-pipeline-template) | Reusable template for building and deploying ML models — preprocessing, training, evaluation, and REST API included. | Python · FastAPI · Docker · Scikit-learn |
 
-> 📌 More projects at [github.com/Hasan-Sakib](https://github.com/Hasan-Sakib?tab=repositories)
-
----
-
-## 🎓 Education
-
-| Degree | Institution | Period |
-|--------|-------------|--------|
-| **B.Sc. in Computer Science & Engineering** *(Major: Data Science)* | East West University, Dhaka | Jan 2022 – Dec 2025 |
-| **Higher Secondary Certificate (HSC)** *(Science)* | Bangladesh Navy College, Dhaka | 2018 – 2020 |
-
-**Relevant Coursework:** `Artificial Intelligence` · `Machine Learning` · `Image Processing` · `Data Mining` · `Data Structures & Algorithms`
-
----
-
-## 🔬 Research Interests
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Computer%20Vision-FF6F00?style=for-the-badge&logo=opencv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Self--Supervised%20Learning-00B4AB?style=for-the-badge&logo=keras&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Large%20Language%20Models-3776AB?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Multimodal%20AI-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NLP-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Representation%20Learning-5C3EE8?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hasan-Sakib&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hasan-Sakib&theme=tokyonight&hide_border=true" width="48%"/>
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hasan-Sakib&theme=tokyo-night&hide_border=true&area=true" width="96%"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasan-Sakib&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="45%"/>
-</div>
-
----
-
-## 🏆 Highlights
-
-- 📄 **Research Publication** — ICCIT 2025 (International Conference on Computer and Information Technology)
-- 🦠 **Final Year Project** — Vision-Based Self-Supervised Malware Detection System
-- 🌐 **Full Stack AI Apps** — End-to-end deployment of ML models with REST APIs and web frontends
-- 🤝 Open to collaborations in **Computer Vision · LLMs · Applied AI**
-
----
-
-## 📫 Let's Connect
+##  Let's Connect
 
 <p align="center">
   <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
