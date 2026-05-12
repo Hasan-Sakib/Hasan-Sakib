@@ -124,10 +124,9 @@ With hands-on experience in **Computer Vision**, **Self-Supervised Learning**, a
 ##  GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hasan-sakib&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800" width="48%"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hasan-sakib&theme=tokyonight&hide_border=true" width="48%"/>
   <br/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=hasan-sakib&theme=tokyo-night&hide_border=true&area=true" width="96%"/>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hasan-sakib&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" width="45%"/>
+
 </div>
