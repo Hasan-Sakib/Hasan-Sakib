@@ -10,7 +10,7 @@
   <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Gmail-sakibmunshi013-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-sakib--hasan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-Hasan--Sakib-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://github.com/Hasan-Sakib/cv/blob/main/cv.pdf"><img src="https://img.shields.io/badge/Resume-View%20CV-00B4AB?style=for-the-badge&logo=googledrive&logoColor=white"/></a>
+  <a href="https://raw.githubusercontent.com/hasan-sakib/Hasan-Sakib/main/Md.%20Sakib%20Hasan.pdf"><img src="https://img.shields.io/badge/Resume-Download%20CV-00B4AB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-00B4AB?style=for-the-badge&logo=googlemaps&logoColor=white"/>
 </p>
 
@@ -175,7 +175,7 @@ profile = {
   <a href="https://linkedin.com/in/sakib-hasan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:sakibmunshi013@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/Hasan-Sakib"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://github.com/Hasan-Sakib/cv/blob/main/cv.pdf"><img src="https://img.shields.io/badge/Portfolio%20%2F%20CV-00B4AB?style=for-the-badge&logo=googledrive&logoColor=white"/></a>
+  <a href="https://raw.githubusercontent.com/hasan-sakib/Hasan-Sakib/main/Md.%20Sakib%20Hasan.pdf"><img src="https://img.shields.io/badge/Download%20CV-00B4AB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>
 </p>
 
 <p align="center">
