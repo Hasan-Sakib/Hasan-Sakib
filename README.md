@@ -47,11 +47,21 @@ I thrive on challenges where innovation meets practicality, combining rigorous m
 ### 🤖 AI / ML / Deep Learning
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch"/>
-  <img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow"/>
-  <img src="https://skillicons.dev/icons?i=sklearn" alt="Scikit-Learn"/>
-  <img src="https://skillicons.dev/icons?i=opencv" alt="OpenCV"/>
-  <img src="https://skillicons.dev/icons?i=keras" alt="Keras"/>
+  <a href="#" title="PyTorch">
+    <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" width="50" height="50"/>
+  </a>
+  <a href="#" title="TensorFlow">
+    <img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" width="50" height="50"/>
+  </a>
+  <a href="#" title="Scikit-Learn">
+    <img src="https://skillicons.dev/icons?i=sklearn" alt="Scikit-Learn" width="50" height="50"/>
+  </a>
+  <a href="#" title="OpenCV">
+    <img src="https://skillicons.dev/icons?i=opencv" alt="OpenCV" width="50" height="50"/>
+  </a>
+  <a href="#" title="Keras">
+    <img src="https://skillicons.dev/icons?i=keras" alt="Keras" width="50" height="50"/>
+  </a>
 </p>
 
 <p align="center">
@@ -59,13 +69,18 @@ I thrive on challenges where innovation meets practicality, combining rigorous m
   <img src="https://img.shields.io/badge/Computer%20Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="Computer Vision"/>
   <img src="https://img.shields.io/badge/Self--Supervised%20Learning-00B4AB?style=flat-square&logo=keras&logoColor=white" alt="Self-Supervised Learning"/>
   <img src="https://img.shields.io/badge/LLMs-FF6F00?style=flat-square&logo=openai&logoColor=white" alt="LLMs"/>
+  <img src="https://img.shields.io/badge/YOLO-0066FF?style=flat-square&logo=yolo&logoColor=white" alt="YOLO"/>
 </p>
 
 ### 📊 Data Science & Analysis
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python" alt="Python"/>
-  <img src="https://skillicons.dev/icons?i=jupyter" alt="Jupyter"/>
+  <a href="#" title="Python">
+    <img src="https://skillicons.dev/icons?i=python" alt="Python" width="50" height="50"/>
+  </a>
+  <a href="#" title="Jupyter">
+    <img src="https://skillicons.dev/icons?i=jupyter" alt="Jupyter" width="50" height="50"/>
+  </a>
 </p>
 
 <p align="center">
@@ -73,42 +88,98 @@ I thrive on challenges where innovation meets practicality, combining rigorous m
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white" alt="Matplotlib"/>
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Google Colab"/>
+  <img src="https://img.shields.io/badge/Seaborn-0C55AA?style=flat-square&logo=python&logoColor=white" alt="Seaborn"/>
 </p>
 
 ### 🌐 Full Stack Development
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react" alt="React"/>
-  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"/>
-  <img src="https://skillicons.dev/icons?i=flask" alt="Flask"/>
-  <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI"/>
-  <img src="https://skillicons.dev/icons?i=tailwind" alt="TailwindCSS"/>
-  <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap"/>
+  <a href="#" title="React">
+    <img src="https://skillicons.dev/icons?i=react" alt="React" width="50" height="50"/>
+  </a>
+  <a href="#" title="Node.js">
+    <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="50" height="50"/>
+  </a>
+  <a href="#" title="Flask">
+    <img src="https://skillicons.dev/icons?i=flask" alt="Flask" width="50" height="50"/>
+  </a>
+  <a href="#" title="FastAPI">
+    <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" width="50" height="50"/>
+  </a>
+  <a href="#" title="Express">
+    <img src="https://skillicons.dev/icons?i=express" alt="Express" width="50" height="50"/>
+  </a>
+  <a href="#" title="Django">
+    <img src="https://skillicons.dev/icons?i=django" alt="Django" width="50" height="50"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html" alt="HTML5"/>
-  <img src="https://skillicons.dev/icons?i=css" alt="CSS3"/>
-  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript"/>
+  <a href="#" title="HTML5">
+    <img src="https://skillicons.dev/icons?i=html" alt="HTML5" width="50" height="50"/>
+  </a>
+  <a href="#" title="CSS3">
+    <img src="https://skillicons.dev/icons?i=css" alt="CSS3" width="50" height="50"/>
+  </a>
+  <a href="#" title="JavaScript">
+    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="50" height="50"/>
+  </a>
+  <a href="#" title="TailwindCSS">
+    <img src="https://skillicons.dev/icons?i=tailwind" alt="TailwindCSS" width="50" height="50"/>
+  </a>
+  <a href="#" title="Bootstrap">
+    <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" width="50" height="50"/>
+  </a>
 </p>
 
 ### 🗄️ Databases & DevOps
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"/>
-  <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB"/>
-  <img src="https://skillicons.dev/icons?i=docker" alt="Docker"/>
-  <img src="https://skillicons.dev/icons?i=git" alt="Git"/>
-  <img src="https://skillicons.dev/icons?i=github" alt="GitHub"/>
+  <a href="#" title="MySQL">
+    <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" width="50" height="50"/>
+  </a>
+  <a href="#" title="MongoDB">
+    <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="50" height="50"/>
+  </a>
+  <a href="#" title="PostgreSQL">
+    <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" width="50" height="50"/>
+  </a>
+  <a href="#" title="Docker">
+    <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="50" height="50"/>
+  </a>
+  <a href="#" title="Git">
+    <img src="https://skillicons.dev/icons?i=git" alt="Git" width="50" height="50"/>
+  </a>
+  <a href="#" title="GitHub">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="50" height="50"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/REST%20API-FF6B6B?style=flat-square&logo=api&logoColor=white" alt="REST API"/>
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  <img src="https://img.shields.io/badge/CI%2FCD-2496ED?style=flat-square&logo=github&logoColor=white" alt="CI/CD"/>
 </p>
 
 ### 💻 Programming Languages
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python" alt="Python"/>
-  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript"/>
-  <img src="https://skillicons.dev/icons?i=java" alt="Java"/>
-  <img src="https://skillicons.dev/icons?i=c" alt="C"/>
+  <a href="#" title="Python">
+    <img src="https://skillicons.dev/icons?i=python" alt="Python" width="50" height="50"/>
+  </a>
+  <a href="#" title="JavaScript">
+    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="50" height="50"/>
+  </a>
+  <a href="#" title="Java">
+    <img src="https://skillicons.dev/icons?i=java" alt="Java" width="50" height="50"/>
+  </a>
+  <a href="#" title="C">
+    <img src="https://skillicons.dev/icons?i=c" alt="C" width="50" height="50"/>
+  </a>
+  <a href="#" title="TypeScript">
+    <img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" width="50" height="50"/>
+  </a>
 </p>
 
 ---
