@@ -3,26 +3,26 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=600&color=00FFAA&center=true&vCenter=true&width=650&lines=AI%2FML+Engineer+%7C+Full+Stack+Developer;Building+Intelligent+Systems;Computer+Vision+%26+Deep+Learning" width="100%"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=600&color=00FFAA&center=true&vCenter=true&width=650&lines=AI%2FML+Engineer+%7C+Full+Stack+Developer+%7C+Computer+Vision" alt="Typing SVG"/>
 </p>
 
 <p align="center">
   <a href="mailto:sakibmunshi013@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sakibmunshi013-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+    <img src="https://img.shields.io/badge/Email-sakibmunshi013-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   <a href="https://www.linkedin.com/in/md-sakib-hasan-356304272/">
-    <img src="https://img.shields.io/badge/LinkedIn-md--sakib--hasan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-md--sakib--hasan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/hasan-sakib">
-    <img src="https://img.shields.io/badge/GitHub-hasan--sakib-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-hasan--sakib-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="https://raw.githubusercontent.com/hasan-sakib/hasan-sakib/main/Md.%20Sakib%20Hasan.pdf">
-    <img src="https://img.shields.io/badge/Resume-Download%20CV-00B4AB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume"/>
+    <img src="https://img.shields.io/badge/Resume-Download%20CV-FF6B35?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-00B4AB?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
+  <img src="https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-26A69A?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
   <img src="https://komarev.com/ghpvc/?username=hasan-sakib&style=for-the-badge&color=00ffaa" alt="Profile Views"/>
 </p>
 
@@ -30,7 +30,7 @@
 
 ## 👨‍💻 About Me
 
-I'm a passionate **AI/ML Engineer** and **Full Stack Developer** dedicated to transforming complex problems into elegant, intelligent solutions. My expertise spans the full technology stack—from designing advanced neural network architectures to building scalable web applications.
+I'm a passionate **AI/ML Engineer** and **Full Stack Developer** dedicated to transforming complex problems into elegant, intelligent solutions. My expertise spans the full technology stack—from cutting-edge machine learning models to production-ready web applications.
 
 **Key Focus Areas:**
 - **Computer Vision & Image Processing** – Object detection, semantic segmentation, image classification
@@ -203,16 +203,16 @@ I'm always interested in discussing AI/ML projects, full-stack development oppor
 
 <p align="center">
   <a href="https://linkedin.com/in/md-sakib-hasan-356304272/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:sakibmunshi013@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://github.com/hasan-sakib">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="https://raw.githubusercontent.com/hasan-sakib/hasan-sakib/main/Md.%20Sakib%20Hasan.pdf">
-    <img src="https://img.shields.io/badge/Download%20CV-00B4AB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume"/>
+    <img src="https://img.shields.io/badge/Download%20CV-FF6B35?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume"/>
   </a>
 </p>
 
